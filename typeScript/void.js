@@ -6,3 +6,8 @@ const returnVoid = (message) => {
     return undefined;
 };
 returnVoid("리턴이 없다");
+const numFunc = (a) => {
+    return a * 30;
+};
+console.log(numFunc(10)); // 300
+console.log(numFunc("안녕하세요 저는 경인입니다" + 5)); //NaN
